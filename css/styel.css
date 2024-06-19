@@ -1,0 +1,147 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-brand img
+{
+    width: 70px;
+}
+
+
+.text-mine
+{
+    color: #ff206e;
+}
+.bg-mine
+{
+    color: #ff206e;
+}
+
+header
+{ 
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+.icon
+{
+    margin: 0px 5px;
+    width: 40px;
+    height: 40px;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+}
+
+
+
+.title h2
+{
+    font-size: 80px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #c1c1c1;
+    letter-spacing: 15px;
+
+}
+.title h3
+{
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 15px;
+}
+.about
+{
+    background-image: url(../img/light_dot.jpg)
+}
+.services
+{
+    background-image:url(../img/dark_dot.jpg) ;
+    background-size: cover;
+    
+}
+.profile
+{
+    background-image: url(../img/light_dot.jpg) ;
+}
+
+.services .title h2
+{
+    color: #222;
+}
+.services .title h3
+{
+    color: #fff;
+}
+.item h2
+{
+    position: relative;
+    padding: 20px 0px;
+}
+
+.item h2::after
+{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    background-color: #ff206e;
+    height: 2px;
+    width: 25%;
+   
+
+}
+
+.client-img
+{
+    width: 80px;
+    border: solid 3px #f4f4f4;
+    transform: translateY(50%);
+
+}
+.client-feedback
+{
+    border:solid 2px #f4f4f4 ;
+}
+.client-feedback .brbr
+{
+    width: 10%;
+    height: 2px;
+    background-color: #ff206e;
+    margin: 10px auto;
+}
+#testimonial
+{
+    background-image: url(../img/dark_dot.jpg);
+}
+@font-face {
+    font-family:"Bebas Neue", sans-serif;
+    
+}
+
+.carousel-indicators [data-bs-target]
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-indent: 0;
+}
+#products h2
+{
+    font-family: "Bebas Neue", sans-serif;
+}
+#contacts
+{
+    height: 70vh;
+    background-color: #e7008a;
+}
+
+#products
+
+{
+    background-image:url(../img/light_dot.jpg) ;
+}
+
+#dede
+{
+    background-image: url(../img/dark_dot.jpg);
+}
